@@ -1,6 +1,6 @@
 ﻿namespace AdoNetProject
 {
-    partial class Form1
+    partial class FrmCity
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,6 @@
             this.lblCityId = new System.Windows.Forms.Label();
             this.btnList = new System.Windows.Forms.Button();
             this.txtCityId = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtCityName = new System.Windows.Forms.TextBox();
             this.lblCityName = new System.Windows.Forms.Label();
@@ -70,17 +69,6 @@
             this.txtCityId.Name = "txtCityId";
             this.txtCityId.Size = new System.Drawing.Size(100, 20);
             this.txtCityId.TabIndex = 2;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(197, 289);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -165,7 +153,7 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // Form1
+            // FrmCity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,11 +167,10 @@
             this.Controls.Add(this.txtCityName);
             this.Controls.Add(this.lblCityName);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.txtCityId);
             this.Controls.Add(this.btnList);
             this.Controls.Add(this.lblCityId);
-            this.Name = "Form1";
+            this.Name = "FrmCity";
             this.Text = "City Process Form";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -196,7 +183,6 @@
         private System.Windows.Forms.Label lblCityId;
         private System.Windows.Forms.Button btnList;
         private System.Windows.Forms.TextBox txtCityId;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtCityName;
         private System.Windows.Forms.Label lblCityName;
